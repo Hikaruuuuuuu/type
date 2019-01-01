@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html, body {
+  width: 100%;
+  height: 100%;
+  font-size: .15rem; }
+
+.wrap {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column; }
+  .wrap .header {
+    width: 100%;
+    height: .45rem; }
+    .wrap .header .h4 {
+      width: 100%;
+      height: .45rem;
+      text-align: center;
+      line-height: .45rem;
+      border: 1px solid #ccc; }
+  .wrap .main {
+    width: 100%;
+    flex: 1;
+    overflow: auto; }
+    .wrap .main .content {
+      width: 100%;
+      padding: 5%; }
+      .wrap .main .content .file {
+        width: 90%;
+        padding: 5%;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        margin: 3% 5%; }
+        .wrap .main .content .file p {
+          line-height: .3rem; }
+  .wrap .footer {
+    width: 100%;
+    height: .45rem; }
+    .wrap .footer .h5 {
+      width: 100%;
+      height: .45rem;
+      text-align: center;
+      line-height: .45rem;
+      background: orange; }
+
+.alert {
+  width: 100%;
+  height: 100%;
+  background: #0000005e;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none; }
+  .alert .box {
+    width: 80%;
+    height: 1.35rem;
+    margin-left: 10%;
+    position: relative;
+    top: 40%;
+    margin-top: -.5rem;
+    background: white;
+    border-radius: 10px; }
+    .alert .box h4 {
+      width: 100%;
+      height: .45rem;
+      line-height: .45rem;
+      text-align: center; }
+    .alert .box .inp {
+      width: 100%;
+      height: .45rem; }
+      .alert .box .inp input {
+        width: 100%;
+        outline: none;
+        border: 0;
+        text-indent: .3rem;
+        height: .45rem; }
+    .alert .box .alert-btn {
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      font-size: .14rem;
+      height: .45rem;
+      line-height: .45rem; }
+      .alert .box .alert-btn span {
+        width: 100%;
+        text-align: center;
+        border-radius: 10px;
+        border: 1px solid #ccc; }
